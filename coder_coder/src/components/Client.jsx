@@ -5,6 +5,7 @@ const Client = (props) => {
   return (
     <div className="client">
       <Avatar name={props.username} size="50" round="10px" />
+      <span className="username">{props.username}</span>
     </div>
   );
 };

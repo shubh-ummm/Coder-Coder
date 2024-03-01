@@ -1,14 +1,16 @@
 #root {
-  /* max-width: 1280px;
+  /* max-width: 1280px; */
   margin: 0 auto;
-  padding: 2rem;
-  text-align: center; */
+  /* padding: 2rem; */
+  /* text-align: center; */
 }
 
 .formWrapper{
-  background:#3c3c3c;
+  color: black;
+  background:#ffffff;
   padding: 20px;
   border-radius: 10px;
+  font-weight: 600;
 }
 .footerText{
 
@@ -26,11 +28,12 @@
   padding: 10px;
   border-radius: 5px;
   outline: none;
-  border: none;
+  border: 1px solid black;
   margin-bottom: 14px;
-  background:#eee;
+  background:#fee5e5;
   font-size: 1em;
-  color: #2b2b2b;
+  color: #000000;
+  font-weight: 500;
 }
 .invitation-roomid-text{
   margin-bottom: 5px;
@@ -48,6 +51,7 @@
 
 
 .mainWrapper{
+  
   display: flex;
     place-items: center;
     place-content: center;
@@ -56,4 +60,60 @@
     min-width: 100%;
     min-height: 90vh;
     
+}
+
+.mainWrap{
+  display: grid;
+  grid-template-columns: 250px 1fr;
+  height: 100vh;
+}
+
+.leftPane{
+  background:#1b1b1b;
+  padding: 16px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.leftPaneInner{
+  flex: 1;
+}
+
+.clientsList{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.client{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-weight: 500;
+}
+.username{
+  margin-top: 10px;
+}
+.logo{
+  border-bottom: 1px solid grey;
+  padding-bottom: 10px;
+}
+.leaveBtn{
+  margin-top: 10px;
+}
+
+.CodeMirror{
+  min-height: calc(100vh - 20px);
+  font-size: 20px;
+  line-height: 1.6;
+  padding-top: 20px;
+}
+
+.realTimeEditorTest{
+width: 1654px;
+height: 855px;
+}
+.logoImage{
+  width: 220px;
 }

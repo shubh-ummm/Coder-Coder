@@ -37,7 +37,7 @@ const Home = () => {
     <div className="mainWrapper">
       <div className="homePageWrapper">
         <div className="formWrapper">
-          <img src="/src/assets/logo.png" alt="logo" />
+          <img src="/src/assets/logo-light.png" alt="logo" />
           <p className="invitation-roomid-text">Paste Invitation ROOM ID</p>
           <div className="inputGroup">
             <input
